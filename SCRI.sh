@@ -58,13 +58,15 @@ inst_components () {
 funcao_idioma () {
  echo -e " "
 msg -bar2
-cowsay -f eyes "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL BY DANKELTHAHER" | lolcat
-figlet ..dankelthaher.. | lolcat
+cowsay -f eyes "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL " | lolcat
+figlet QUILCA| lolcat
+# INSTALANDO COMPONENTES 
+figlet NETWORK  |lolcat
  echo -e " "
 msg -bar2
 echo -e "\e[1;33mSOLO DISPONIBLE IDIOMA ESPAÑOL ELIJA OPSION 7\e[0m"
 msg -bar2
-declare -A idioma=( [1]="en \e[0;37mIngles \e[0m "  [2]="fr \e[0;37mFrances \e[0m "  [3]="de \e[0;37mAleman \e[0m "  [4]="it \e[0;37mItaliano \e[0m "  [5]="pl \e[0;37mPolaco \e[0m "  [6]="pt \e[0;37mPortugues \e[0m "  [7]="es \e[0;37mEspanol \e[0m "  [8]="tr \e[0;37mTurko \e[0m " )
+declare -A idioma=( [1]="en \e[1;33mIngles \e[0m "  [2]="fr \e[1;33mFrances \e[0m "  [3]="de \e[1;33mAleman \e[0m "  [4]="it \e[1;33mItaliano \e[0m "  [5]="pl \e[1;33mPolaco \e[0m "  [6]="pt \e[1;33mPortugues \e[0m "  [7]="es \e[1;33mEspanol \e[0m "  [8]="tr \e[1;33mTurko \e[0m " )
 for ((i=1; i<=12; i++)); do
 valor1="$(echo ${idioma[$i]}|cut -d' ' -f2)"
 [[ -z $valor1 ]] && break
@@ -173,7 +175,7 @@ chmod +x ${ARQ}/$1
 fun_ip
 wget -O /usr/bin/trans https://raw.githubusercontent.com/ALAN-TECK/QUILCA/main/Install/trans &> /dev/null
 msg -bar2
-msg -ama "[ NEW - ULTIMATE - SCRIPT ] ➣ \033[1;33m[\033[1;34m OFICIAL BY-DANKELTHAHER \033[1;33m]"
+msg -ama "[ NEW - ULTIMATE - SCRIPT ] ➣ \033[1;33m[\033[1;34m 925739412 ➣ QUILCA NETWORK \033[1;33m]"
 [[ $1 = "" ]] && funcao_idioma || {
 [[ ${#1} -gt 2 ]] && funcao_idioma || id="$1"
  }
