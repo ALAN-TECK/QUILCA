@@ -15,7 +15,7 @@ SCPfrm="/etc/ger-frm"
 SCPfrm3="/etc/adm-lite"
 SCPinst="/etc/ger-inst"
 rm $HOME/Dankelthaher.sh
-SCPresq="aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FMQU4tVEVDSy9RVUlMQ0EvbWFpbi9WUFM="
+SCPresq="aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FMQU4tVEVDSy9RVUlMQ0EvbWFpbi9yZXF1ZXN0"
 SUB_DOM='base64 -d'
 [[ $(dpkg --get-selections|grep -w "gawk"|head -1) ]] || apt-get install gawk -y &>/dev/null
 [[ $(dpkg --get-selections|grep -w "mlocate"|head -1) ]] || apt-get install mlocate -y &>/dev/null
