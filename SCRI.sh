@@ -62,7 +62,7 @@ cowsay -f eyes "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL BY DANKELTHAHE
 figlet ..dankelthaher.. | lolcat
  echo -e " "
 msg -bar2
-echo -e "\e[1;33mSelecione Un Idioma\e[0m"
+echo -e "\e[1;33mSOLO DISPONIBLE IDIOMA ESPAÑOL ELIJA OPSION 7\e[0m"
 msg -bar2
 declare -A idioma=( [1]="en \e[0;37mIngles \e[0m "  [2]="fr \e[0;37mFrances \e[0m "  [3]="de \e[0;37mAleman \e[0m "  [4]="it \e[0;37mItaliano \e[0m "  [5]="pl \e[0;37mPolaco \e[0m "  [6]="pt \e[0;37mPortugues \e[0m "  [7]="es \e[0;37mEspanol \e[0m "  [8]="tr \e[0;37mTurko \e[0m " )
 for ((i=1; i<=12; i++)); do
