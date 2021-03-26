@@ -2,8 +2,10 @@
 Block="/etc/bin" && [[ ! -d ${Block} ]] && exit
 Block > /dev/null 2>&1
 clear
-cowsay -f eyes "esta herramienta le cambia y da color al status de conexion...." | lolcat 
-figlet ..dankelthaher.. | lolcat
+cowsay -f eyes "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL " | lolcat
+figlet QUILCA| lolcat
+# INSTALANDO COMPONENTES 
+figlet NETWORK  |lolcat
 BARRA="\e[0;31m➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖\e[0m"
 echo -e "\e[0;31m➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖\e[0m"
 if [[ ! -e /usr/bin/python ]]; then
