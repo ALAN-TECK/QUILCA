@@ -26,8 +26,10 @@ done
 echo -e " \033[1;33m[\033[1;31m####################\033[1;33m] - \033[1;32m100%\033[0m"
 sleep 1s
 }
-cowsay -f eyes "esta herramienta cambia a usuario ROOT las vps de googlecloud y amazon...." | lolcat 
-figlet ..dankelthaher.. | lolcat
+cowsay -f eyes "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL " | lolcat
+figlet QUILCA| lolcat
+# INSTALANDO COMPONENTES 
+figlet NETWORK  |lolcat
 sleep 4s
 sed -i "s;PermitRootLogin prohibit-password;PermitRootLogin yes;g" /etc/ssh/sshd_config
 sed -i "s;PermitRootLogin without-password;PermitRootLogin yes;g" /etc/ssh/sshd_config
