@@ -156,7 +156,6 @@ case $1 in
 "ssl.sh")ARQ="${SCPinst}/";; #Instalacao
 "ssld.sh")ARQ="${SCPinst}/";; #Instalacao
 "utils.sh")ARQ="${SCPinst}/";; #Instalacao
-"sslmanager.sh")ARQ="${SCPinst}/";; #Instalacao
 "errormanager.sh")ARQ="${SCPinst}/";; #Instalacao
 "shadown.sh")ARQ="${SCPinst}/";; #Instalacao
 "shadowsock.sh")ARQ="${SCPinst}/";; #Instalacao
